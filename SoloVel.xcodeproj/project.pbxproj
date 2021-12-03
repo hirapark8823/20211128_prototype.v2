@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		166FFDD42759ADB900BFAD50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166FFDD32759ADB900BFAD50 /* AppDelegate.swift */; };
+		166FFDD62759ADB900BFAD50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166FFDD52759ADB900BFAD50 /* SceneDelegate.swift */; };
+		166FFDD82759ADB900BFAD50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166FFDD72759ADB900BFAD50 /* ViewController.swift */; };
+		166FFDDB2759ADB900BFAD50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 166FFDD92759ADB900BFAD50 /* Main.storyboard */; };
+		166FFDDD2759ADBA00BFAD50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 166FFDDC2759ADBA00BFAD50 /* Assets.xcassets */; };
+		166FFDE02759ADBA00BFAD50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 166FFDDE2759ADBA00BFAD50 /* LaunchScreen.storyboard */; };
+		166FFDEB2759ADBA00BFAD50 /* SoloVelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166FFDEA2759ADBA00BFAD50 /* SoloVelTests.swift */; };
+		166FFDF52759ADBA00BFAD50 /* SoloVelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166FFDF42759ADBA00BFAD50 /* SoloVelUITests.swift */; };
+		166FFDF72759ADBA00BFAD50 /* SoloVelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166FFDF62759ADBA00BFAD50 /* SoloVelUITestsLaunchTests.swift */; };
+		166FFE042759AFBB00BFAD50 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166FFE032759AFBB00BFAD50 /* TodoListViewController.swift */; };
+		166FFE062759AFE000BFAD50 /* TodoAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166FFE052759AFE000BFAD50 /* TodoAddViewController.swift */; };
+		166FFE082759B00800BFAD50 /* TodoEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166FFE072759B00800BFAD50 /* TodoEditViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		166FFDE72759ADBA00BFAD50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 166FFDC82759ADB900BFAD50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 166FFDCF2759ADB900BFAD50;
+			remoteInfo = SoloVel;
+		};
+		166FFDF12759ADBA00BFAD50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 166FFDC82759ADB900BFAD50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 166FFDCF2759ADB900BFAD50;
+			remoteInfo = SoloVel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		166FFDD02759ADB900BFAD50 /* SoloVel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoloVel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		166FFDD32759ADB900BFAD50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		166FFDD52759ADB900BFAD50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		166FFDD72759ADB900BFAD50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		166FFDDA2759ADB900BFAD50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		166FFDDC2759ADBA00BFAD50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		166FFDDF2759ADBA00BFAD50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		166FFDE12759ADBA00BFAD50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		166FFDE62759ADBA00BFAD50 /* SoloVelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoloVelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		166FFDEA2759ADBA00BFAD50 /* SoloVelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoloVelTests.swift; sourceTree = "<group>"; };
+		166FFDF02759ADBA00BFAD50 /* SoloVelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoloVelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		166FFDF42759ADBA00BFAD50 /* SoloVelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoloVelUITests.swift; sourceTree = "<group>"; };
+		166FFDF62759ADBA00BFAD50 /* SoloVelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoloVelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		166FFE032759AFBB00BFAD50 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
+		166FFE052759AFE000BFAD50 /* TodoAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAddViewController.swift; sourceTree = "<group>"; };
+		166FFE072759B00800BFAD50 /* TodoEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoEditViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		166FFDCD2759ADB900BFAD50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166FFDE32759ADBA00BFAD50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166FFDED2759ADBA00BFAD50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		166FFDC72759ADB900BFAD50 = {
+			isa = PBXGroup;
+			children = (
+				166FFDD22759ADB900BFAD50 /* SoloVel */,
+				166FFDE92759ADBA00BFAD50 /* SoloVelTests */,
+				166FFDF32759ADBA00BFAD50 /* SoloVelUITests */,
+				166FFDD12759ADB900BFAD50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		166FFDD12759ADB900BFAD50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				166FFDD02759ADB900BFAD50 /* SoloVel.app */,
+				166FFDE62759ADBA00BFAD50 /* SoloVelTests.xctest */,
+				166FFDF02759ADBA00BFAD50 /* SoloVelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		166FFDD22759ADB900BFAD50 /* SoloVel */ = {
+			isa = PBXGroup;
+			children = (
+				166FFDD32759ADB900BFAD50 /* AppDelegate.swift */,
+				166FFDD52759ADB900BFAD50 /* SceneDelegate.swift */,
+				166FFDD72759ADB900BFAD50 /* ViewController.swift */,
+				166FFDD92759ADB900BFAD50 /* Main.storyboard */,
+				166FFDDC2759ADBA00BFAD50 /* Assets.xcassets */,
+				166FFDDE2759ADBA00BFAD50 /* LaunchScreen.storyboard */,
+				166FFDE12759ADBA00BFAD50 /* Info.plist */,
+				166FFE032759AFBB00BFAD50 /* TodoListViewController.swift */,
+				166FFE052759AFE000BFAD50 /* TodoAddViewController.swift */,
+				166FFE072759B00800BFAD50 /* TodoEditViewController.swift */,
+			);
+			path = SoloVel;
+			sourceTree = "<group>";
+		};
+		166FFDE92759ADBA00BFAD50 /* SoloVelTests */ = {
+			isa = PBXGroup;
+			children = (
+				166FFDEA2759ADBA00BFAD50 /* SoloVelTests.swift */,
+			);
+			path = SoloVelTests;
+			sourceTree = "<group>";
+		};
+		166FFDF32759ADBA00BFAD50 /* SoloVelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				166FFDF42759ADBA00BFAD50 /* SoloVelUITests.swift */,
+				166FFDF62759ADBA00BFAD50 /* SoloVelUITestsLaunchTests.swift */,
+			);
+			path = SoloVelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		166FFDCF2759ADB900BFAD50 /* SoloVel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 166FFDFA2759ADBA00BFAD50 /* Build configuration list for PBXNativeTarget "SoloVel" */;
+			buildPhases = (
+				166FFDCC2759ADB900BFAD50 /* Sources */,
+				166FFDCD2759ADB900BFAD50 /* Frameworks */,
+				166FFDCE2759ADB900BFAD50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoloVel;
+			productName = SoloVel;
+			productReference = 166FFDD02759ADB900BFAD50 /* SoloVel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		166FFDE52759ADBA00BFAD50 /* SoloVelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 166FFDFD2759ADBA00BFAD50 /* Build configuration list for PBXNativeTarget "SoloVelTests" */;
+			buildPhases = (
+				166FFDE22759ADBA00BFAD50 /* Sources */,
+				166FFDE32759ADBA00BFAD50 /* Frameworks */,
+				166FFDE42759ADBA00BFAD50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				166FFDE82759ADBA00BFAD50 /* PBXTargetDependency */,
+			);
+			name = SoloVelTests;
+			productName = SoloVelTests;
+			productReference = 166FFDE62759ADBA00BFAD50 /* SoloVelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		166FFDEF2759ADBA00BFAD50 /* SoloVelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 166FFE002759ADBA00BFAD50 /* Build configuration list for PBXNativeTarget "SoloVelUITests" */;
+			buildPhases = (
+				166FFDEC2759ADBA00BFAD50 /* Sources */,
+				166FFDED2759ADBA00BFAD50 /* Frameworks */,
+				166FFDEE2759ADBA00BFAD50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				166FFDF22759ADBA00BFAD50 /* PBXTargetDependency */,
+			);
+			name = SoloVelUITests;
+			productName = SoloVelUITests;
+			productReference = 166FFDF02759ADBA00BFAD50 /* SoloVelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		166FFDC82759ADB900BFAD50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					166FFDCF2759ADB900BFAD50 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					166FFDE52759ADBA00BFAD50 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 166FFDCF2759ADB900BFAD50;
+					};
+					166FFDEF2759ADBA00BFAD50 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 166FFDCF2759ADB900BFAD50;
+					};
+				};
+			};
+			buildConfigurationList = 166FFDCB2759ADB900BFAD50 /* Build configuration list for PBXProject "SoloVel" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 166FFDC72759ADB900BFAD50;
+			productRefGroup = 166FFDD12759ADB900BFAD50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				166FFDCF2759ADB900BFAD50 /* SoloVel */,
+				166FFDE52759ADBA00BFAD50 /* SoloVelTests */,
+				166FFDEF2759ADBA00BFAD50 /* SoloVelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		166FFDCE2759ADB900BFAD50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166FFDE02759ADBA00BFAD50 /* LaunchScreen.storyboard in Resources */,
+				166FFDDD2759ADBA00BFAD50 /* Assets.xcassets in Resources */,
+				166FFDDB2759ADB900BFAD50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166FFDE42759ADBA00BFAD50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166FFDEE2759ADBA00BFAD50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		166FFDCC2759ADB900BFAD50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166FFE042759AFBB00BFAD50 /* TodoListViewController.swift in Sources */,
+				166FFDD82759ADB900BFAD50 /* ViewController.swift in Sources */,
+				166FFE062759AFE000BFAD50 /* TodoAddViewController.swift in Sources */,
+				166FFDD42759ADB900BFAD50 /* AppDelegate.swift in Sources */,
+				166FFE082759B00800BFAD50 /* TodoEditViewController.swift in Sources */,
+				166FFDD62759ADB900BFAD50 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166FFDE22759ADBA00BFAD50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166FFDEB2759ADBA00BFAD50 /* SoloVelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166FFDEC2759ADBA00BFAD50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166FFDF52759ADBA00BFAD50 /* SoloVelUITests.swift in Sources */,
+				166FFDF72759ADBA00BFAD50 /* SoloVelUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		166FFDE82759ADBA00BFAD50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 166FFDCF2759ADB900BFAD50 /* SoloVel */;
+			targetProxy = 166FFDE72759ADBA00BFAD50 /* PBXContainerItemProxy */;
+		};
+		166FFDF22759ADBA00BFAD50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 166FFDCF2759ADB900BFAD50 /* SoloVel */;
+			targetProxy = 166FFDF12759ADBA00BFAD50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		166FFDD92759ADB900BFAD50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				166FFDDA2759ADB900BFAD50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		166FFDDE2759ADBA00BFAD50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				166FFDDF2759ADBA00BFAD50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		166FFDF82759ADBA00BFAD50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		166FFDF92759ADBA00BFAD50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		166FFDFB2759ADBA00BFAD50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43TK9MDUZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SoloVel/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.naohiro.hiramoto.SoloVel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		166FFDFC2759ADBA00BFAD50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43TK9MDUZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SoloVel/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.naohiro.hiramoto.SoloVel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		166FFDFE2759ADBA00BFAD50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43TK9MDUZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.naohiro.hiramoto.SoloVelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoloVel.app/SoloVel";
+			};
+			name = Debug;
+		};
+		166FFDFF2759ADBA00BFAD50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43TK9MDUZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.naohiro.hiramoto.SoloVelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoloVel.app/SoloVel";
+			};
+			name = Release;
+		};
+		166FFE012759ADBA00BFAD50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43TK9MDUZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.naohiro.hiramoto.SoloVelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SoloVel;
+			};
+			name = Debug;
+		};
+		166FFE022759ADBA00BFAD50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43TK9MDUZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.naohiro.hiramoto.SoloVelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SoloVel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		166FFDCB2759ADB900BFAD50 /* Build configuration list for PBXProject "SoloVel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166FFDF82759ADBA00BFAD50 /* Debug */,
+				166FFDF92759ADBA00BFAD50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		166FFDFA2759ADBA00BFAD50 /* Build configuration list for PBXNativeTarget "SoloVel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166FFDFB2759ADBA00BFAD50 /* Debug */,
+				166FFDFC2759ADBA00BFAD50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		166FFDFD2759ADBA00BFAD50 /* Build configuration list for PBXNativeTarget "SoloVelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166FFDFE2759ADBA00BFAD50 /* Debug */,
+				166FFDFF2759ADBA00BFAD50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		166FFE002759ADBA00BFAD50 /* Build configuration list for PBXNativeTarget "SoloVelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166FFE012759ADBA00BFAD50 /* Debug */,
+				166FFE022759ADBA00BFAD50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 166FFDC82759ADB900BFAD50 /* Project object */;
+}
